@@ -1,0 +1,9 @@
+# This file is used by autoprefixer to determine which browsers to support
+# You can check your usage by running: npx browserslist
+
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 9-11
+

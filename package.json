@@ -1,0 +1,38 @@
+{
+  "name": "html-project",
+  "version": "1.0.0",
+  "description": "Gulp 기반 HTML 프로젝트 빌드 시스템",
+  "main": "gulpfile.babel.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "clean": "gulp clean"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "gulp",
+    "scss"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "autoprefixer": "^10.4.17",
+    "browser-sync": "^2.29.3",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.3.4",
+    "sass": "^1.69.5"
+  }
+}

@@ -1,0 +1,126 @@
+<meta charset="UTF-8">	
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- SEO -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="세계 에너지시장 정보">
+<meta property="og:title" content="KETEP 세계에너지시장정보">
+<meta property="og:url" content="https://energy.ketep.re.kr/globalenergy/site/main/home">
+<meta property="og:description" content="세계 에너지시장 정보">
+<meta property="og:image" content="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/images/renew/og-img.png">
+<meta name="name" content="">
+<meta name="keywords" content="세계 에너지시장 정보">
+<meta name="description" content="세계 에너지시장 정보">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="image_src" content="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/images/renew/og-img.png">
+<!-- //SEO -->
+
+<link rel="shortcut icon" href="/globalenergy/favicon.ico">
+
+<!-- legacy resource : css -->
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/slick.css">
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/common.css">
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/subpage.css?ver=20240228">
+<link rel="stylesheet" type="text/css" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/media.css">
+
+<!-- 24년 리뉴얼 리소스추가 -->
+<link rel="stylesheet" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/swiper.min.css">
+<link rel="stylesheet" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/renew.css?ver=240213">
+<link rel="stylesheet" href="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/css/renew_font.css">
+
+<!-- legacy resource : js-->
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-6VCDCHKM14&amp;cx=c&amp;gtm=4e5bh1"></script>
+<script type="text/javascript" async="" src="https://energy.ketep.re.kr/globalenergy/owa/modules/base/dist/owa.tracker.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/jquery-1.12.1.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/jquery-ui.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/slick.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/subpage.js"></script>
+<script src="https://kit.fontawesome.com/c4f9354aa3.js" crossorigin="anonymous"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/common/js/jquery.cookie.js"></script>
+<script>
+	var GLOBAL = {
+		APP_PATH:'/globalenergy/site/main',
+		API_PATH:'/api',
+		siteId:'ecms',
+		menuId:'',
+		SECURITY_ASYNC_TOKEN_NAME:'X-ECMS-SECURITY-TOKEN',
+		SECURITY_ASYNC_COOKIE_NAME:'_asToken',
+		COMMENT_USE_MODERATE:'false',
+		SITE_LOCALE:'ko_KR',
+		MOBILE:'0'
+	};
+</script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/common/js/jquery.drags.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/common/js/common.js"></script>	
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VTXCB7VTW1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-VTXCB7VTW1');
+</script>
+
+<!-- html5 media element -->
+<link href="https://energy.ketep.re.kr/globalenergy/design/common/js/mediaelement/mediaelementplayer.min.css" rel="stylesheet">
+<script src="https://energy.ketep.re.kr/globalenergy/design/common/js/mediaelement/mediaelement-and-player.min.js"></script>
+
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/gsap.min.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/ScrollTrigger.min.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/swiper.min.js"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/renew_common.js?ver=240226"></script>
+<script src="https://energy.ketep.re.kr/globalenergy/design/theme/bluebox/js/renew_main.js"></script>
+
+<script>
+	jQuery(function($){
+		$('video,audio').mediaelementplayer({ });
+	});
+</script>
+
+<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/loader.js"></script>
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script>
+	Kakao.init('5ed8bdbba1ec8b78a4fa34c93cb910d6');
+	
+	function shareKakao(shareUrl, shareTitle) {
+		console.log(Kakao.isInitialized());
+		console.log(shareTitle);
+		Kakao.Link.sendDefault({
+			objectType: 'feed',
+			content: {
+				title: shareTitle,
+				description: shareTitle,
+				imageUrl: shareUrl,
+				link: {
+					mobileWebUrl: shareUrl,
+					webUrl: shareUrl
+				}
+			}
+		});
+	}
+	
+	function downloadUrlFile(){
+		if( confirm("바탕화면에 바로가기 아이콘을 만드시겠습니까?") ) {
+			try{
+				var WshShell     = new ActiveXObject("WScript.Shell");
+				Desktoptemp      = WshShell.Specialfolders("Desktop");
+				var sIconNm      = "세계 에너지시장 정보";
+				var sName        = WshShell.CreateShortcut(Desktoptemp + "\\" + sIconNm + ".LNK");
+				sName.TargetPath = "https://energy.ketep.re.kr/globalenergy/site/main/home";
+				sName.IconLocation = "https://energy.ketep.re.kr/globalenergy/favicon.ico";
+				sName.Save();
+				alert("생성되었습니다.");
+			}catch(e){
+				alert("지원하지 않는 브라우저입니다.");
+				return false;
+			}
+		}
+	}
+</script>
+

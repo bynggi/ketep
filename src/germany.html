@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head prefix="og: http://ogp.me/ns#">
+	<title>독일 에너지 정책 및 시장 정보</title>
+	@@include('common/head.html')
+	<script>
+		if(typeof GLOBAL !== 'undefined') {
+			GLOBAL.menuId = 'Germany';
+		}
+	</script>
+</head>
+<body class="sub-page" style="">
+	@@include('common/header.html')
+	
+	<div class="page country continent_europe Germany" id="Germany">
+		<p class="sub_tit">국가별 에너지 정보</p>
+		<p class="sub_des">전세계 주요국 에너지산업 해외시장 정보제공</p>
+	</div>
+	
+	<div class="main" id="page">
+		<div class="wrap">
+			<div class="single-top module">
+				<div class="cont span_2_of_3">
+					<div class="lnb">
+						<ul class="menu-location nav-location seo-location breadcrumb">
+							<li><a href="/">Home</a></li>
+							<li><div><p class="current">국가별 에너지 정보</p></div></li>
+							<li><div><p class="current">유럽</p></div></li>
+							<li><div><p class="current">독일</p></div></li>
+						</ul>
+					</div>
+					
+					<div class="menu-title-wrap">
+						<h4 class="m_2"><span>독일</span></h4>
+					</div>
+					
+					<div class="full-width_2">
+						<div class="wrapper clearfix">
+							<div class="left_chart">
+								<h4 class="red-bullet">독일 에너지 데이터</h4>
+								<div class="whBox">
+									<div id="graph_img" class="graph_img" style="width:100%; height: 100%; max-width: 1600px; min-height: 500px;"></div>
+									<div id="source" class="source trans">Source : EIA, IEA (2024)</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="content">
+						@@include('components/country/germany.html')
+						
+						<div class="wrapper clearfix">
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">에너지뉴스</h4>
+								<ul></ul>
+								<a href="/globalenergy/site/main/board/energy_news/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">정책동향보고서</h4>
+								<ul></ul>
+								<a href="/globalenergy/site/main/board/policy_report/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">해외진출지원사업</h4>
+								<ul class="bd_list bd_list2"></ul>
+								<a href="/globalenergy/site/main/board/global_support/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">해외입찰정보</h4>
+								<ul class="bd_list bd_list2"></ul>
+								<a href="/globalenergy/site/main/board/global_bidding/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">규제지원제도</h4>
+								<ul></ul>
+								<a href="/globalenergy/site/main/board/regulation_support/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+							<div class="col-md-6 boxtype--1">
+								<h4 class="red-bullet">기술표준인증</h4>
+								<ul></ul>
+								<a href="/globalenergy/site/main/board/standard_certificate/list?cp=1&amp;baCategory1=DE">더보기</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var APP_PATH = "/globalenergy/site/main";
+		});
+	</script>
+	
+	@@include('common/footer.html')
+</body>
+</html>
+
